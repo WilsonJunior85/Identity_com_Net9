@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Identity_com_Net9")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bc273c6be46a33e3ce284c620e0d27f5c5ba4cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f996bffb4ac3a91ae679302ce1c5ec5ea0c46a9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Identity_com_Net9")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Identity_com_Net9")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,6 @@
 using Identity_com_Net9.Data;
 using Identity_com_Net9.Models;
+using Identity_com_Net9.Services.Auth;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -25,6 +26,9 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
     options.Password.RequireUppercase = false;
 }).AddEntityFrameworkStores<ApplicationDbContext>()
   .AddDefaultTokenProviders();
+
+
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 
 

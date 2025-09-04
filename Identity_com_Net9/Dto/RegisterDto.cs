@@ -1,0 +1,15 @@
+﻿namespace Identity_com_Net9.Dto
+{
+    public class RegisterDto
+    {
+        public string Email { get; set; } = string.Empty;
+
+        public string NomeCompleto { get; set; } = string.Empty;
+
+        public string Usuario { get; set; } = string.Empty;
+
+        public string Senha { get; set; } = string.Empty;
+
+        public List<string> Roles { get; set; } = new();
+    }
+}
